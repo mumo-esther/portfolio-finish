@@ -3,8 +3,7 @@
 }
 
 .recent-works {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
@@ -21,8 +20,8 @@
 }
 
 .card {
-  height: 25rem;
-  width: 100%;
+  height: 474px;
+  width: 327px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,9 +30,20 @@
   border-radius: 10px;
 }
 
-.card img {
-  height: 238px;
-  width: 320px;
+.project-img {
+  background-image: url("./images/img\ placeholder.png");
+  background-size: cover;
+  height: 260px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.text {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .card h3 {
@@ -57,7 +67,7 @@
 }
 
 .project {
-  background-color: rgb(6, 202, 137);
+  background: #36b37f;
   border: none;
   color: white;
   padding: 5px 12px;
@@ -87,12 +97,6 @@
   }
 }
 
-/* .about-me{
-  background-image: url("./images/abt.me.jpeg");
-  background-size: cover;
-  color: white;
-}
-*/
 .about-myself {
   height: 50vh;
   width: 100%;
@@ -139,7 +143,7 @@
 
 .grid {
   background-color: #ebf0ee;
-  height: 15rem;
+  height: 352px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -152,6 +156,40 @@
   border-radius: 10px;
 }
 
+.txt1 {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lang-title {
+  margin-bottom: 120px;
+}
+
+.tags1 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin-top: -90px;
+  gap: 8px;
+  width: 271px;
+  height: 40px;
+  order: 1;
+}
+
+.tags2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-top: 60px;
+}
+
 .grid-image {
   height: 30px;
   width: 30px;
@@ -159,6 +197,7 @@
   border-color: 1px gray;
   padding: 10px;
   border-radius: 100px;
+  margin-top: -3px;
 }
 
 p.content {
@@ -194,14 +233,7 @@ p.content {
 }
 
 .contact {
-  background-image: url("./images");
-  background-color: #ebf0ee;
-  background-size: cover;
-  display: flex;
-  justify-content: space-evenly;
-  margin-left: auto;
-  width: 100%;
-  align-items: center;
+  margin-top: 1050px;
 }
 
 .contact-left {
@@ -242,12 +274,42 @@ p.content {
   width: 8em;
 }
 
+.tags {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
 .tag {
-  background-color: white;
-  padding: 3px;
-  border: none;
+  background: #ebf0ee;
+  padding: 5px;
+  border: 1px solid rgb(224, 224, 224);
   margin-bottom: 5px;
-  color: #36b37e;
+  color: black;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600px;
+}
+
+.tag1 {
+  padding: 5px;
+  border: 1px solid rgb(224, 224, 224);
+  margin-bottom: 5px;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #fff;
+  color: rgb(6, 202, 137);
 }
 
 .header-img {
