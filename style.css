@@ -125,6 +125,21 @@
   z-index: -200;
 }
 
+.about-title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 60px;
+  margin-right: auto;
+  width: 6em;
+  color: #172b4d;
+}
+
 .bg-images {
   display: flex;
   position: absolute;
