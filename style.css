@@ -9,6 +9,21 @@
   margin-top: 20px;
 }
 
+.recents-title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+  color: #172b4d;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(3, auto);
